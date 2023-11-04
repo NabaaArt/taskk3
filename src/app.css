@@ -1,0 +1,139 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+  }
+  
+  header {
+    padding-top: 16px;
+    padding-bottom: 16px;
+    border-bottom: 1px solid #999;
+    position: sticky;
+    top: 0;
+    background: #fff;
+  }
+  
+  header ul {
+    list-style-type: none;
+    margin: 0;
+    display: flex;
+  }
+  
+  header ul li{
+    margin-left: 20px;
+  }
+  header .content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+
+.container-title{
+    margin-top: 50px;
+   
+}
+.add-new-todo{
+  margin-top: 29px;
+  height: 48px;
+ display: flex;
+}
+#todo-input{
+  flex: 3;
+   font-size: 20px;
+   color: #999;
+   border-radius: 8px;
+   border-color: #d9d8d8;
+   border-style: solid;
+   font-weight: lighter;
+    padding-left: 20px;
+   box-sizing: border-box;
+}
+
+#add-button{
+  flex: 1;
+  background-color: #0000FF;
+  margin-left: 20px;
+    color: white;
+    font-size: 16px;
+    border-style: hidden;
+    border-radius: 8;
+   
+   
+}
+
+.active{
+  color: #0000FF; 
+} 
+
+.img-title{
+
+  margin-top: 100px;
+  margin-left: 181px;
+  width: 100%;
+  
+}
+
+span{
+  color: #0000FF;
+}
+.home .items{
+    margin-top: 30px;
+     
+    
+}
+#aon-title{
+  margin-top: 100px;
+  font-weight: lighter;
+  margin-left: 100px;
+ 
+
+}
+.home .todo-items .items{
+      
+    background-color: #F6F6F6;
+    display: flex;
+   height: 72px;
+    align-items: center;
+    flex: 8;
+  justify-content: space-between;
+  padding-right: 15px;
+   
+    border-radius: 8px;
+   padding-left: 15px;
+   
+}
+
+
+#line {
+    margin-top: 18px;
+    border: 1px solid #F6F6F6;
+    margin-bottom: 18px;
+
+}
+
+.list-count{
+  margin-top: 40px;
+}
+
+  .container {
+    max-width: 1000px;
+    margin: auto;
+    padding-left: 20px;
+    padding-right: 20px;
+    
+   
+  }
+
+  @media screen and (max-width:400px) {
+    .add-button{
+      display: none !important;
+      position: fixed;
+      bottom: 20px;
+      margin: 0;
+      left: 20px;
+      right: 20px;
+    }
+     
+  }
+
